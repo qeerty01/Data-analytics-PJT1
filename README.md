@@ -158,7 +158,8 @@ Primary Actor: Administrator
 
 Insert architecture diagram from the Word file.
 
-![System Architecture](images/system_architecture.png)
+<img width="623" height="278" alt="image" src="https://github.com/user-attachments/assets/65bfc7f2-ffe1-4bb2-8975-dae35f4ba2a7" />
+
 
 Architecture components:
 
