@@ -183,7 +183,8 @@ This use case describes how manicure specialists view their daily schedule.
 | Book Appointment | Customer | Appointment created |
 | Manage Appointments | Administrator | Appointment updated |
 | View Schedule | Specialist | Schedule displayed |
-<img width="623" height="278" alt="image" src="https://github.com/user-attachments/assets/76a32ecb-bf56-41a0-8753-859d6444311e" />
+<img width="1831" height="821" alt="image" src="https://github.com/user-attachments/assets/b440b63f-5553-4d29-9b2e-f7ff25bc4377" />
+
 
 ## 13. Business Process Model (BPM)
 
@@ -196,12 +197,18 @@ It helps to:
 - Support system design decisions  
 
 ### BPM Diagram
-<img width="602" height="112" alt="image" src="https://github.com/user-attachments/assets/f9b535bc-8f6b-47fd-8105-66cc4ebf2d8e" />
-<img width="602" height="111" alt="image" src="https://github.com/user-attachments/assets/9a993569-098c-4252-9737-2ca2edb00a2d" />
-<img width="602" height="127" alt="image" src="https://github.com/user-attachments/assets/dc179ffc-948b-4ed1-8e42-a3b6a2748238" />
-<img width="190" height="305" alt="image" src="https://github.com/user-attachments/assets/77b61675-bf2b-4572-b275-ca703a693c72" />
-<img width="210" height="281" alt="image" src="https://github.com/user-attachments/assets/4fbf4a77-33a9-411f-bfff-73d9ebbcdd99" />
-<img width="185" height="253" alt="image" src="https://github.com/user-attachments/assets/6ccfaa93-c0cc-49cd-94ab-d7b0663fa095" />
+<img width="1241" height="231" alt="image" src="https://github.com/user-attachments/assets/d4d2e83a-94bf-4501-8f99-4fa214be7f43" />
+
+<img width="1141" height="211" alt="image" src="https://github.com/user-attachments/assets/fea0a3b2-ffab-4236-b8f3-d45c3b688927" />
+
+<img width="1241" height="261" alt="image" src="https://github.com/user-attachments/assets/af3dd50a-0c68-44b3-850f-be806ffd8766" />
+
+<img width="601" height="961" alt="image" src="https://github.com/user-attachments/assets/c5d4052d-891a-4a33-ac61-f7b5dd9bcf21" />
+
+<img width="501" height="671" alt="image" src="https://github.com/user-attachments/assets/af7d4bb8-2db0-46f1-94fd-9eba41000ec6" />
+
+<img width="531" height="721" alt="image" src="https://github.com/user-attachments/assets/8b2b92f9-d3ec-4fb6-b686-ac95a27b4024" />
+
 
  ## 14. Enterprise Resource Planning (ERP) System Design
 
