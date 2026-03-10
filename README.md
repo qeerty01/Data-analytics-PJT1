@@ -123,7 +123,7 @@ Specialists can:
 
 ---
 
-# 9. Use Case: Customer Books an Appointment
+# 9. Use Case 1: Customer Books an Appointment
 
 Primary Actor: Customer
 
@@ -143,7 +143,7 @@ Primary Actor: Customer
 
 ---
 
-# 10. Use Case: Administrator Manages Appointments
+# 10. Use Case 2: Administrator Manages Appointments
 
 Primary Actor: Administrator
 
@@ -153,112 +153,125 @@ Primary Actor: Administrator
 4. Edits or cancels bookings
 
 ---
+# 11. Use Case 3: Specialist Views Schedule
 
-# 11. System Architecture Diagram
+**Primary Actor:** Manicure Specialist  
+**Secondary Actors:** System  
 
-Insert architecture diagram from the Word file.
+## Description
+This use case describes how manicure specialists view their daily schedule.
 
-<img width="623" height="278" alt="image" src="https://github.com/user-attachments/assets/65bfc7f2-ffe1-4bb2-8975-dae35f4ba2a7" />
+## Preconditions
+- Specialist must be registered in the system
+- Specialist must be logged in
 
+## Main Flow
+1. Specialist logs into the system.
+2. Specialist opens the schedule dashboard.
+3. System displays a list of appointments assigned to the specialist.
+4. Specialist reviews appointment details.
 
-Architecture components:
-
-- User Management
-- Appointment System
-- Schedule Management
-- SQL Database
+## Postconditions
+- Specialist has access to organized appointment information.
 
 ---
 
-# 12. Database Design and SQL Implementation
+# 12. Use Case Summary Table
 
-The system database stores information about users, appointments, and schedules.
+| Use Case | Primary Actor | Main Outcome |
+|--------|--------|--------|
+| Book Appointment | Customer | Appointment created |
+| Manage Appointments | Administrator | Appointment updated |
+| View Schedule | Specialist | Schedule displayed |
+<img width="623" height="278" alt="image" src="https://github.com/user-attachments/assets/76a32ecb-bf56-41a0-8753-859d6444311e" />
 
+## 13. Business Process Model (BPM)
+
+The Business Process Model helps to visualize the workflow of the manicure appointment booking system.  
+
+It helps to:  
+- Identify system actors  
+- Define system processes  
+- Organize workflow logic  
+- Support system design decisions  
+
+### BPM Diagram
+<img width="602" height="112" alt="image" src="https://github.com/user-attachments/assets/f9b535bc-8f6b-47fd-8105-66cc4ebf2d8e" />
+<img width="602" height="111" alt="image" src="https://github.com/user-attachments/assets/9a993569-098c-4252-9737-2ca2edb00a2d" />
+<img width="602" height="127" alt="image" src="https://github.com/user-attachments/assets/dc179ffc-948b-4ed1-8e42-a3b6a2748238" />
+<img width="190" height="305" alt="image" src="https://github.com/user-attachments/assets/77b61675-bf2b-4572-b275-ca703a693c72" />
+<img width="210" height="281" alt="image" src="https://github.com/user-attachments/assets/4fbf4a77-33a9-411f-bfff-73d9ebbcdd99" />
+<img width="185" height="253" alt="image" src="https://github.com/user-attachments/assets/6ccfaa93-c0cc-49cd-94ab-d7b0663fa095" />
+
+ ## 14. Enterprise Resource Planning (ERP) System Design
+
+The ERP design represents the overall architecture of the system and its main modules.  
+The system uses a modular structure where all components are connected through a centralized database.  
+
+### 1. User Management Module
+**Functions:**  
+- Customer registration  
+- Login authentication  
+- User profile management  
+
+### 2. Appointment Management Module
+**Functions:**  
+- Book appointment  
+- View appointments  
+- Cancel or edit bookings  
+
+### 3. Schedule Management Module
+**Functions:**  
+- Manage available time slots  
+- Assign specialists to appointments  
+- Track daily schedules  
+
+### System Architecture Diagram
+<img width="219" height="297" alt="image" src="https://github.com/user-attachments/assets/eb375a41-7462-473b-9297-f5ab266f61f0" />
+
+---
+
+## 15. Database Design and SQL Implementation
+
+The system database stores information about users, appointments, and schedules.  
 Relationships between tables ensure structured data storage and efficient retrieval of appointment information.
+ 
+ <img width="416" height="396" alt="image" src="https://github.com/user-attachments/assets/7a6ef615-1d0d-4056-a9ef-818919787b31" />
+<img width="451" height="376" alt="image" src="https://github.com/user-attachments/assets/9531a446-b62e-48f4-bb1f-1267ae2d3381" />
+<img width="390" height="376" alt="image" src="https://github.com/user-attachments/assets/47c8720d-344f-4c76-b416-7b6e8b3e3c78" />
+<img width="602" height="540" alt="image" src="https://github.com/user-attachments/assets/7a76aff1-60cb-4bc9-9ec9-06314b54e7b1" />
+<img width="468" height="295" alt="image" src="https://github.com/user-attachments/assets/c313ce77-819d-409c-a146-c6cc1e2710bf" />
+
+
+<img width="255" height="220" alt="image" src="https://github.com/user-attachments/assets/4d1fe397-2581-4be8-8e91-f747989855b3" />
+<img width="602" height="339" alt="image" src="https://github.com/user-attachments/assets/0f1bf5d7-0c23-4356-9c24-7a2fdc999a33" />
+
+
+## 16. Outcome of the Project
+
+As a result of this project:  
+- A structured system design for manicure appointment booking is created  
+- Business processes are clearly documented  
+- System requirements are identified and analyzed  
+- System models and diagrams support the proposed architecture  
+- The project demonstrates practical application of System Analysis and Design principles  
 
 ---
 
-## 12.1 Creating Database Tables
+## 17. Conclusion
 
-Insert screenshot of SQL code that creates tables.
+The Manicure Appointment Booking System project demonstrates how structured system analysis and design can improve appointment scheduling processes in beauty salons.  
 
-![Create Tables](images/create_tables.png)
+By applying system analysis methodologies, the project identifies user needs, defines system processes, and develops a clear system architecture. The design improves scheduling organization, reduces booking conflicts, and enhances customer experience.  
 
----
-
-## 12.2 Creating Schedule Table
-
-Insert screenshot showing schedule table creation.
-
-![Create Schedule Table](images/create_schedule_table.png)
+Overall, the project illustrates how proper system planning and documentation contribute to the development of efficient digital service platforms.  
 
 ---
 
-## 12.3 Creating Appointment Table
+## 18. References
 
-Insert screenshot showing appointment table creation.
-
-![Create Appointment Table](images/create_appointment_table.png)
-
----
-
-## 12.4 Inserting Sample Users
-
-Insert screenshot inserting users.
-
-![Insert Users](images/insert_users.png)
-
----
-
-## 12.5 Inserting Services
-
-Insert screenshot inserting services.
-
-![Insert Services](images/insert_services.png)
-
----
-
-## 12.6 Displaying Tables in Database
-
-Insert screenshot showing list of database tables.
-
-![Database Tables](images/database_tables.png)
-
----
-
-## 12.7 Displaying Users Table
-
-Insert screenshot showing users table output.
-
-![Users Table](images/users_table.png)
-
----
-
-# 13. Outcome of the Project
-
-As a result of this project:
-
-- A structured system design for manicure appointment booking is created
-- Business processes are clearly documented
-- System requirements are identified and analyzed
-- System models and diagrams support the proposed architecture
-- The project demonstrates practical application of System Analysis and Design principles
-
----
-
-# 14. Conclusion
-
-The Manicure Appointment Booking System project demonstrates how structured system analysis and design can improve appointment scheduling processes in beauty salons.
-
-By applying system analysis methodologies, the project identifies user needs, defines system processes, and develops a clear system architecture.
-
-The design improves scheduling organization, reduces booking conflicts, and enhances customer experience.
-
----
-
-# 15. References
-
-- System Analysis and Design course materials
-- https://www.w3schools.com
-- https://www.programiz.com
-- https://www.diagrams.net
+The following resources were used during the development of this project:  
+- System Analysis and Design course materials  
+- [W3Schools](https://www.w3schools.com)  
+- [Programiz](https://www.programiz.com)  
+- [Draw.io (Diagrams.net)](https://www.diagrams.net)
