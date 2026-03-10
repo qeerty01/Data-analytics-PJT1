@@ -1,226 +1,263 @@
 # Manicure Appointment Booking System
 
 ## Course
-**Cap1: System Analysis and Design**
+Cap1: System Analysis and Design
 
 ---
 
-## Team Information
+# 1. Team Information
 
-**Team Name:** Team 777
+Team Name: Team 777
 
 | Name | Student ID | Role | Responsibilities |
 |-----|-----|-----|-----|
-| Mariya Gorbacheva | 202490123 | Team Leader | Oversees the project, manages tasks, ensures deadlines are met |
-| Karina Gumerova | 202490124 | System Analyst | Analyzes system requirements and identifies user needs |
-| Maksim Em | 202490106 | System Designer | Designs system models, diagrams, and system structure |
-| Diyorbek Voidjonov | 202490357 | Documentation Specialist | Prepares and maintains project documentation |
+| Mariya Gorbacheva | 202490123 | Team Leader | Oversees the project and coordinates the team |
+| Karina Gumerova | 202490124 | System Analyst | Analyzes system requirements |
+| Maksim Em | 202490106 | System Designer | Creates system models and diagrams |
+| Diyorbek Voidjonov | 202490357 | Documentation Specialist | Prepares project documentation |
 
 ---
 
-# Project Description
+# 2. Project Description
 
-The **Manicure Appointment Booking System** is a digital platform designed to simplify and organize the process of scheduling manicure services in beauty salons.
+The Manicure Appointment Booking System is designed to simplify the process of scheduling manicure services in beauty salons.
 
-Many salons currently rely on phone calls, social media messages, or manual notebooks to manage appointments. These traditional methods often cause scheduling conflicts, missed bookings, and inefficient time management.
+Many salons currently manage appointments using phone calls, social media messages, or handwritten notebooks. These methods often lead to scheduling conflicts, missed appointments, and inefficient time management.
 
-The proposed system provides a centralized platform where customers can easily book manicure appointments while salon staff can manage schedules and monitor service availability.
-
----
-
-# Key Features
-
-- Customer appointment booking  
-- Viewing available time slots  
-- Appointment management by salon staff  
-- Organized scheduling and record keeping  
-- Basic customer information storage  
+The proposed system provides a centralized platform where customers can easily book manicure appointments, while salon staff can manage schedules and monitor service availability.
 
 ---
 
-# Problem Statement
+# 3. Key Features
 
-Many manicure salons still manage appointments manually using phone calls or messaging applications. This approach often leads to scheduling conflicts, double bookings, and difficulties in tracking appointments.
+- Customer appointment booking
+- Viewing available time slots
+- Appointment management by salon staff
+- Organized scheduling and record keeping
+- Customer information storage
+
+---
+
+# 4. Problem Statement
+
+Many manicure salons still manage appointments manually using phone calls or messaging applications.
+
+This approach often leads to:
+
+- Scheduling conflicts
+- Double bookings
+- Difficulties tracking appointments
 
 Without a structured system, salon administrators and specialists may struggle to manage time efficiently, which can negatively affect customer satisfaction and service quality.
 
 ---
 
-# Project Objectives
+# 5. Project Objectives
 
-- Analyze the current manicure appointment booking process  
-- Identify system users and their needs  
-- Define functional and non-functional requirements  
-- Design a structured booking system  
-- Apply System Analysis and Design methodologies  
-- Improve scheduling efficiency and customer experience  
+The objectives of this project are:
 
----
-
-# System Scope
-
-## System Includes
-
-- Customer appointment booking  
-- Viewing available manicure time slots  
-- Appointment management by salon staff  
-- Customer information management  
-- Organized scheduling records  
-
-## Limitations
-
-- Online payments are not included  
-- No real-time chat support  
-- No automated reminders  
-- No advanced analytics or reporting  
-- Academic system design only (not commercial deployment)
+- Analyze the current manicure appointment booking process
+- Identify system users and their needs
+- Define functional and non-functional requirements
+- Design a structured booking system
+- Apply System Analysis and Design methodologies
+- Improve scheduling efficiency and customer experience
 
 ---
 
-# Expected Users
+# 6. System Scope
 
-### Customers
-- Book manicure appointments  
-- View available time slots  
+## 6.1 System Includes
 
-### Salon Administrators
-- Manage appointment schedules  
-- Monitor booking activity  
+- Customer appointment booking
+- Viewing available manicure time slots
+- Appointment management by salon staff
+- Customer information management
+- Organized scheduling records
 
-### Manicure Specialists
-- View assigned appointments  
-- Manage service availability  
+## 6.2 Limitations
 
-### System Analysts / Academic Reviewers
-- Evaluate system structure and documentation  
+- No online payments
+- No real-time chat support
+- No automated reminders
+- No advanced analytics
+
+This system is designed for **academic purposes only**.
 
 ---
 
-# Project Timeline
+# 7. Expected Users
+
+## 7.1 Customers
+
+Customers can:
+
+- View available time slots
+- Book manicure appointments
+
+## 7.2 Salon Administrators
+
+Administrators can:
+
+- Manage appointment schedules
+- Monitor bookings
+- Cancel or modify appointments
+
+## 7.3 Manicure Specialists
+
+Specialists can:
+
+- View assigned appointments
+- Manage their availability
+
+---
+
+# 8. Project Timeline
 
 | Week | Activities |
 |-----|-----|
-| Week 1 | Problem identification and project planning |
-| Week 2–3 | Requirement analysis and documentation |
-| Week 4–5 | System modeling and design |
-| Week 6–7 | Final documentation and project submission |
+| Week 1 | Problem identification and planning |
+| Week 2-3 | Requirements analysis |
+| Week 4-5 | System design |
+| Week 6-7 | Documentation and submission |
 
 ---
 
-# Use Cases
+# 9. Use Case: Customer Books an Appointment
 
-## 1. Customer Books an Appointment
-
-**Primary Actor:** Customer  
-**Secondary Actors:** System, Salon Administrator  
+Primary Actor: Customer
 
 ### Main Flow
 
-1. Customer logs into the system  
-2. Opens appointment booking page  
-3. System displays available time slots  
-4. Customer selects date and time  
-5. Customer confirms booking  
-6. System validates request  
-7. Appointment is saved in the database  
+1. Customer logs into the system
+2. Opens booking page
+3. System displays available time slots
+4. Customer selects date and time
+5. Customer confirms booking
+6. System saves appointment in the database
 
 ### Alternative Flow
 
-- If time slot is already booked → error message  
-- If customer is not logged in → redirect to login  
+- If the slot is already booked → error message  
+- If the user is not logged in → redirect to login page
 
 ---
 
-## 2. Salon Administrator Manages Appointments
+# 10. Use Case: Administrator Manages Appointments
 
-**Primary Actor:** Administrator  
+Primary Actor: Administrator
 
-### Process
-
-1. Administrator logs into system  
-2. Opens appointment management panel  
-3. Views scheduled appointments  
-4. Edits or cancels appointments  
+1. Administrator logs into system
+2. Opens appointment management panel
+3. Views scheduled appointments
+4. Edits or cancels bookings
 
 ---
 
-## 3. Specialist Views Schedule
+# 11. System Architecture Diagram
 
-**Primary Actor:** Manicure Specialist  
+Insert architecture diagram from the Word file.
 
-### Process
+![System Architecture](images/system_architecture.png)
 
-1. Specialist logs into system  
-2. Opens schedule dashboard  
-3. Views assigned appointments  
+Architecture components:
 
----
-
-# System Architecture
-
-```
-User Management
-        |
-Appointment System
-        |
-Schedule Management
-        |
-SQL Database
-```
+- User Management
+- Appointment System
+- Schedule Management
+- SQL Database
 
 ---
 
-# ERP System Modules
+# 12. Database Design and SQL Implementation
 
-### User Management
-- Registration
-- Login
-- Profile management
+The system database stores information about users, appointments, and schedules.
 
-### Appointment Management
-- Book appointment
-- View appointments
-- Cancel bookings
-
-### Schedule Management
-- Manage time slots
-- Assign specialists
-- Track daily schedules
+Relationships between tables ensure structured data storage and efficient retrieval of appointment information.
 
 ---
 
-# Database Design
+## 12.1 Creating Database Tables
 
-The database stores information about:
+Insert screenshot of SQL code that creates tables.
 
-- Users  
-- Appointments  
-- Schedules  
-
-Relationships between tables ensure structured data storage and efficient appointment management.
+![Create Tables](images/create_tables.png)
 
 ---
 
-# Project Outcome
+## 12.2 Creating Schedule Table
 
-- Structured system design created  
-- Business processes documented  
-- System requirements analyzed  
-- System architecture developed  
+Insert screenshot showing schedule table creation.
 
----
-
-# Conclusion
-
-The Manicure Appointment Booking System demonstrates how structured system analysis can improve scheduling processes in beauty salons.
-
-The design reduces booking conflicts, improves organization, and enhances customer experience.
+![Create Schedule Table](images/create_schedule_table.png)
 
 ---
 
-# References
+## 12.3 Creating Appointment Table
 
-- System Analysis and Design course materials  
-- https://www.w3schools.com  
-- https://www.programiz.com  
+Insert screenshot showing appointment table creation.
+
+![Create Appointment Table](images/create_appointment_table.png)
+
+---
+
+## 12.4 Inserting Sample Users
+
+Insert screenshot inserting users.
+
+![Insert Users](images/insert_users.png)
+
+---
+
+## 12.5 Inserting Services
+
+Insert screenshot inserting services.
+
+![Insert Services](images/insert_services.png)
+
+---
+
+## 12.6 Displaying Tables in Database
+
+Insert screenshot showing list of database tables.
+
+![Database Tables](images/database_tables.png)
+
+---
+
+## 12.7 Displaying Users Table
+
+Insert screenshot showing users table output.
+
+![Users Table](images/users_table.png)
+
+---
+
+# 13. Outcome of the Project
+
+As a result of this project:
+
+- A structured system design for manicure appointment booking is created
+- Business processes are clearly documented
+- System requirements are identified and analyzed
+- System models and diagrams support the proposed architecture
+- The project demonstrates practical application of System Analysis and Design principles
+
+---
+
+# 14. Conclusion
+
+The Manicure Appointment Booking System project demonstrates how structured system analysis and design can improve appointment scheduling processes in beauty salons.
+
+By applying system analysis methodologies, the project identifies user needs, defines system processes, and develops a clear system architecture.
+
+The design improves scheduling organization, reduces booking conflicts, and enhances customer experience.
+
+---
+
+# 15. References
+
+- System Analysis and Design course materials
+- https://www.w3schools.com
+- https://www.programiz.com
 - https://www.diagrams.net
